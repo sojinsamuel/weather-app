@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
     <title>Weather app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="card">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search city...">
+                <button> <i class="fa fa-search"></i> </button>
+            </div>
+            <div class="weather">
+                <h2 class="city">Weather in Pune</h2> 
+                <h1 class="temp">24 <span>&#176;</span>C</h1>
+                <img src="" class="icon" alt="">
+                <div class="description">Cloudy</div>
+                <div class="humidity">Humidity: 60%</div>
+                <div class="wind">Wind Speed: 6.2km/h</div>
+            </div>
+    </div>
 </body>
 </html>
